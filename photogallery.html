@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            padding:40px 
+
+
+            
+        }
+        img{
+            height: fit-content;
+            width: fit-content;
+            border: solid rgb(176, 164, 164) 3px;
+            border-radius: 15px;
+            box-shadow: inset;
+
+        }
+        body{
+            background-color: rgba(7, 7, 7, 0.279);
+        
+        }
+        .zoom {
+            padding: 30px;
+            transition: transform .2s; /* Animation */
+            width: 250px;
+            height: 250px;
+            margin: 10;
+        }
+        .zoom:hover {
+            transform: scale(1.2);
+
+        }    
+        .shadow{
+        filter: drop-shadow(6px 6px 6px rgb(98, 98, 98));
+        }
+        .row2{
+            filter: opacity (100%);
+        }
+        #pic1{
+            width: 250px;
+        }   
+    </style>
+</head>
+<body>
+        <table >
+            <tr class="row1">
+                <td class="shadow">
+                <img class="zoom" src="image/joker.jpeg">
+                
+
+            </td>
+            <td>
+                <img class="zoom" src="image/joker2.jpeg" >
+            </td>
+            <td class="shadow">
+                <img class="zoom" src="image/joker3.jpeg">
+            </td>
+            </tr>
+            <tr class="row2">
+                <td class="shadow">
+                <img class="zoom" src="image/header-virtual.png">
+            </td>
+            <td class="shadow">
+                <img class="zoom" src="image/images.jpeg" >
+            </td>
+            <td class="shadow">
+                <img class="zoom" src="image/Online-Live-Classes.jpeg">
+            </td>
+            </tr>
+            <tr class="row3">
+            <td class="shadow">
+                <img class="zoom" src="image/pngtree-remote-online-rework-vector-image_2248099.jpeg" >
+            </td>
+            <td class="shadow">
+                <img class="zoom"  src="image/Unknown.jpeg"> 
+            </td>
+            <td class="shadow">
+                <img class="zoom" src="image/vrphoto.jpeg">
+            </td>
+            </tr>
+
+        </table>
+</body>
+</html>
